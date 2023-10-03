@@ -1,12 +1,12 @@
-#This will probably print hello world!
+#This prints name, pronouns, favorites
 
 def PrintName():
 	print("Allan Dewey")
 def Pronouns():
 	print("he/him")
 def Favorites():
-  print("Rush Hour")
-  print("Hot Pot")
+	print("Rush Hour")
+	print("Hot Pot")
 
 
 
@@ -16,7 +16,8 @@ def Favorites():
 def main():
 	PrintHelloWorld()
 	Pronouns()
-  Favorites()
+	Favorites()
 
 if __name__=="__main__":
 	main()
+
