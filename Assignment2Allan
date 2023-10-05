@@ -1,0 +1,27 @@
+import numpy as np
+#Write a Python that prints the sum of two floating point numbers, 
+#the difference between two integers, and the product of a floating point number 
+#and an integer. 
+#In each case, have the program print out the data type of the resulting answer.
+def sum():
+	n = 10.7
+	j = 5.8
+	yes = float(n)+float(j)
+	print(f' "type: "{type(yes)} "number:" {yes}')
+def diff():
+	n = 7
+	j = 9
+	yes = n-j
+	print(f' "type: "{type(yes)} "number:"{yes}')
+def floatint():
+	n = float(10.7)
+	j = 7
+	yes = n*j
+	print(f' "type: "{type(yes)} "number:" {yes}')
+def main():
+	sum()
+	diff()
+	floatint()
+if __name__ == "__main__":
+	main()
+
