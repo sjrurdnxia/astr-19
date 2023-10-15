@@ -1,0 +1,24 @@
+class Assignment4:
+    def __init__(self,arms,legs,eyes,tail,furry):
+        self.arms = arms
+        self.legs = legs
+        self.eyes = eyes
+        self.tail = tail
+        self.furry = furry
+    def description(self):
+        print(f'The Panda has {self.arms} arm length')
+        print(f'The Panda has {self.legs} legs length')
+        print(f'Number of eyes: {self.eyes}')
+        if self.tail == True:
+            print('It has a tail!')
+        else:
+            print(f"It doesn't have a tail")
+        if self.furry == True:
+            print(f"It's furry!")
+        else:
+            print(f"It's not furry!")
+call = Assignment4(0.3,0.5,2,True,True)
+call.description()
+
+
+            
